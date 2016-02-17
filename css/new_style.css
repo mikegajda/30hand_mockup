@@ -1,0 +1,50 @@
+div#top_nav {
+  background: #000;
+  height: 110px; }
+
+div#logo {
+  height: 60px;
+  width: 100px;
+  position: relative;
+  margin: auto; }
+
+li.top_nav_li {
+  list-style: none;
+  float: left;
+  height: 30px;
+  margin: 5px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #e2e2e2; }
+
+li.top_nav_li a {
+  padding: 6px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  text-align: center; }
+
+li.top_nav_li a:hover {
+  background: #000;
+  color: #fff; }
+
+ul#top_nav_ul {
+  float: left; }
+
+ul#top_nav_login {
+  float: right; }
+
+li#login {
+  margin-right: 0;
+  border-radius: 5px 0 0 5px;
+  border-right: solid #000 1px;
+  width: 70px; }
+
+li#register {
+  margin-left: 0;
+  border-radius: 0 5px 5px 0;
+  border-left: solid #000 1px;
+  width: 70px; }

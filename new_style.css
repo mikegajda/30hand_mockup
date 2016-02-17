@@ -1,0 +1,209 @@
+div#top_nav {
+  background: #2C4DB3;
+  height: 135px;
+  padding: 10px; }
+  @media (max-width: 768px) {
+    div#top_nav {
+      height: 310px; } }
+
+div#top_nav ul {
+  margin: 0;
+  padding: 0; }
+
+div#header {
+  position: relative;
+  margin: auto;
+  background: #fff;
+  margin: 5px 0 5px 0;
+  border-radius: 5px; }
+  @media (max-width: 768px) {
+    div#header {
+      margin: 5px 0 5px 0; } }
+
+div#logo {
+  width: 189px;
+  margin: auto;
+  position: relative; }
+
+li.top_nav_li {
+  list-style: none;
+  float: left;
+  height: 30px;
+  margin: 5px 0 5px 0;
+  overflow: hidden;
+  background: #fff;
+  border: solid #2C4DB3;
+  border-width: 0 1px 0 1px; }
+  @media (max-width: 768px) {
+    li.top_nav_li {
+      margin: 0;
+      border-radius: 0;
+      border: solid #2C4DB3;
+      border-width: 1px 0 1px 0;
+      float: left;
+      width: 100%; } }
+
+li.top_nav_li a {
+  padding: 6px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  text-align: center; }
+
+li.top_nav_li a:hover {
+  background: #69A631;
+  color: #fff; }
+
+ul#top_nav_ul {
+  float: left; }
+  @media (max-width: 768px) {
+    ul#top_nav_ul {
+      float: left;
+      width: 100%; }
+      ul#top_nav_ul li.top_nav_li_right {
+        border-radius: 0; } }
+
+ul#top_nav_login {
+  float: right; }
+  @media (max-width: 768px) {
+    ul#top_nav_login {
+      float: left;
+      width: 100%; }
+      ul#top_nav_login li.top_nav_li_left {
+        border-radius: 0; } }
+
+li.top_nav_li_left {
+  margin-right: 0;
+  border-radius: 5px 0 0 5px;
+  border-width: 0 1px 0 0;
+  width: 70px; }
+  @media (max-width: 768px) {
+    li.top_nav_li_left {
+      width: 100%;
+      border-width: 1px 0 1px 0;
+      border-radius: 5px 5px 0 0; } }
+
+li.top_nav_li_right {
+  margin-left: 0;
+  border-radius: 0 5px 5px 0;
+  border-width: 0 0 0 1px;
+  width: 90px; }
+  @media (max-width: 768px) {
+    li.top_nav_li_right {
+      width: 100%;
+      border-width: 1px 0 1px 0;
+      border-radius: 0 0 5px 5px; } }
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  border: solid #69A631;
+  border-width: 0 0 2px 0;
+  background: #fff;
+  padding: 10px 5px 10px 5px;
+  float: none; }
+
+div#coursePageContent {
+  padding: 10px;
+  background: #69A631; }
+
+div.course_page_container, div.side_bar_container {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: hidden; }
+
+div.row {
+  margin-right: 0;
+  margin-left: 0; }
+
+#side {
+  background: #69A631;
+  font-size: 11px;
+  padding: 10px; }
+
+#side .section {
+  margin-bottom: 20px; }
+
+div.side_bar_container {
+  background: #e2e2e2;
+  padding: 0;
+  border-radius: 5px;
+  overflow: hidden; }
+
+.section h2 {
+  background: #CBCBCE;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  padding: 5px;
+  text-align: center;
+  margin: 0;
+  color: #000; }
+
+a.top_title:link, a.top_title:visited {
+  font-weight: normal;
+  font-size: 11px;
+  border: solid #69A631 0;
+  border-radius: 5px;
+  background: #69A631;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  position: relative;
+  top: -10px;
+  float: right;
+  text-align: center; }
+  @media (max-width: 768px) {
+    a.top_title:link, a.top_title:visited {
+      float: none;
+      width: 100px;
+      margin: auto;
+      border-radius: 0 0 5px 5px;
+      padding: 5px 5px 5px 5px; } }
+
+a.top_title:hover {
+  color: #ffffff;
+  background-color: #2C4DB3;
+  text-decoration: none;
+  font-size: 11px; }
+
+h3.ui-accordion-header {
+  background: #e2e2e2;
+  border-radius: 0;
+  margin-top: 0;
+  border-width: 1px 0 1px 0; }
+
+div.ui-accordion-content {
+  border-radius: 0;
+  border-width: 0; }
+
+#side .badge {
+  padding-top: 8px; }
+
+td#aboutInfo {
+  padding: 10px; }
+
+div#course_modules_accordion {
+  min-width: 100%; }
+
+.phone_hidden {
+  display: block; }
+
+.phone_show {
+  display: none; }
+
+@media (max-width: 768px) {
+  .phone_hidden {
+    display: none; }
+
+  .phone_show {
+    display: block; }
+
+  .container-fluid {
+    padding: 0; } }

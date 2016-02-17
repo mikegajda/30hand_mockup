@@ -1,0 +1,257 @@
+$green: #69A631;
+$gray: #fff;
+$actual_gray: #e2e2e2;
+$black: #2C4DB3;
+$real_black: #000;
+$orange: #D0E3BE;
+
+$border_radius: 5px;
+$break_small: 768px;
+
+div#top_nav {
+	background: $black;
+	height: 135px;
+	padding: 10px;
+
+	@media (max-width: $break_small) {
+		height: 310px;
+	}
+}
+div#top_nav ul {
+	margin: 0;
+	padding: 0;
+}
+div#header {
+
+	position: relative;
+	margin: auto;
+	background: $gray;
+	margin: 5px 0 5px 0;
+	border-radius: $border_radius;
+
+	@media (max-width: $break_small) {
+		margin: 5px 0 5px 0;
+	}
+}
+
+div#logo {
+	width: 189px;
+	margin: auto;
+	position: relative;
+}
+
+li.top_nav_li {
+	list-style: none;
+	float: left;
+	height: 30px;
+	margin: 5px 0 5px 0;
+	overflow: hidden;
+	background: $gray;
+	border: solid $black;
+	border-width: 0 1px 0 1px;
+
+	@media (max-width: $break_small) {
+		margin: 0;
+		border-radius: 0;
+		border: solid $black;
+		border-width: 1px 0 1px 0;
+		float: left;
+		width: 100%;
+	}
+}
+
+li.top_nav_li a {
+	padding: 6px;
+	font-size: 12px;
+	text-decoration: none;
+	color: $real_black;
+	font-weight: bold;
+	position: relative;
+	display: block;
+	text-align: center;
+
+}
+li.top_nav_li a:hover {
+	background: $green;
+	color: #fff;
+}
+
+ul#top_nav_ul {
+	float: left;
+
+	@media (max-width: $break_small) {
+		float: left;
+		width: 100%;
+
+		li.top_nav_li_right {
+			border-radius: 0;
+		}
+	}
+
+
+}
+ul#top_nav_login {
+	float: right;
+
+	@media (max-width: $break_small) {
+		float: left;
+		width: 100%;
+
+		li.top_nav_li_left {
+			border-radius: 0;
+		}
+	}
+
+}
+
+li.top_nav_li_left {
+	margin-right: 0;
+	border-radius: $border-radius 0 0 $border-radius;
+	border-width: 0 1px 0 0;
+	width: 70px;
+	@media (max-width: $break_small) {
+		width: 100%;
+		border-width: 1px 0 1px 0;
+		border-radius: $border-radius $border-radius 0 0;
+	}
+}
+li.top_nav_li_right {
+	margin-left: 0;
+	border-radius: 0 $border-radius $border-radius 0;
+	border-width: 0 0 0 1px;
+	width: 90px;
+	@media (max-width: $break_small) {
+		width: 100%;
+		border-width: 1px 0 1px 0;
+		border-radius: 0 0 $border-radius $border-radius;
+	}
+}
+
+h3 {
+	text-align: center;
+	font-weight: bold;
+	margin: 0 0 10px 0; 
+	border: solid $green;
+	border-width: 0 0 2px 0;
+	background: #fff;
+	padding: 10px 5px 10px 5px;
+	float: none;
+}
+
+div#coursePageContent {
+	padding: 10px;
+	background: $green;
+}
+div.course_page_container {
+	background: #fff;
+	border-radius: $border-radius;
+	padding: 10px;
+	overflow: hidden;
+}
+
+div.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#side {  
+  background: $green;
+  font-size: 11px;  
+  padding: 10px;
+}
+
+#side .section {
+  margin-bottom: 20px;
+}
+
+div.side_bar_container {
+	@extend div.course_page_container;
+	background: $actual_gray;
+	padding: 0;
+	border-radius: $border-radius;
+	overflow: hidden;
+}
+
+.section h2 {
+	background: #CBCBCE;
+	font-size:12px;
+	font-weight:bold;
+	letter-spacing:normal;
+	text-transform:uppercase;
+	padding: 5px;
+	text-align: center;
+	margin: 0;
+	color: $real_black;
+}
+
+a.top_title:link, a.top_title:visited {
+        font-weight:normal;
+        font-size:11px;
+        border: solid $green 0;
+        border-radius: $border-radius;
+        background: $green;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px;
+        position: relative;
+        top: -10px;
+        float: right;
+        text-align: center;
+        @media (max-width: $break_small) {
+		float: none;
+		width: 100px;
+		margin: auto;
+		border-radius: 0 0 $border-radius $border-radius;
+		padding: 5px 5px 5px 5px;
+	}
+}
+a.top_title:hover {
+        color:#ffffff;
+        background-color: $black;
+        text-decoration: none;
+        font-size:11px;
+}
+
+h3.ui-accordion-header {
+	background: $actual_gray;
+	border-radius: 0;
+	margin-top: 0;
+	border-width: 1px 0 1px 0;
+}
+
+div.ui-accordion-content {
+	border-radius: 0;
+	border-width: 0;
+}
+
+#side .badge {
+  padding-top: 8px;
+}
+
+td#aboutInfo {
+	padding: 10px;
+}
+
+div#course_modules_accordion {
+	min-width: 100%;
+}
+
+.phone_hidden {
+	display: block;
+}
+
+.phone_show {
+	display: none;
+}
+
+@media (max-width: $break_small) {
+	.phone_hidden {
+		display: none;
+	}
+	.phone_show {
+		display: block;
+	}
+	.container-fluid {
+		padding: 0;
+	}
+}
