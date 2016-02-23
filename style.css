@@ -557,19 +557,6 @@ div.grey_line {
   font-family: verdana, arial, helvetica, sans-serif;
   /*color: #D53707;*/ }
 
-a.top_title:link, a.top_title:visited {
-  text-decoration: underline;
-  font-weight: normal;
-  font-size: 11px;
-  float: right; }
-
-a.top_title:hover {
-  color: #ffffff;
-  background-color: blue;
-  text-decoration: none;
-  font-size: 11px;
-  float: right; }
-
 a.top_title2:link, a.top_title:visited {
   text-decoration: underline;
   font-weight: normal;
